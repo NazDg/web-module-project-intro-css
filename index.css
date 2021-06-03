@@ -1,0 +1,153 @@
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+
+	}
+
+:focus {
+	outline: 0;
+	}
+
+ol, ul {
+	list-style: none;
+	}
+
+    table {
+        border-collapse: separate;
+        border-spacing: 0;
+    }
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";}
+
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 200%;
+    border: 10%;
+    text-decoration: none;
+}
+
+ html{
+font-size:150%;
+text-decoration: none;
+}
+body{
+    font-size:1.6rem;
+    line-height:1.5;
+    color: #4f4f4f;
+    font-family: 'Roboto Mono', monospace;
+}
+H1{
+    font-family: 'Chelsea Market', cursive;
+    font-size: 5rem;
+}
+
+section {
+    padding: 4% 0;
+}
+
+nav{
+    padding:2% 0;
+}
+nav a{
+    display: inline-block;
+    padding:1% 0;
+    width: 10%;
+    border-radius: 10%;
+    color: white;
+    text-align: center;
+}
+
+.orange{
+    background-color:#FF764E;
+    margin-left:10%;
+}
+
+.blue{
+background-color: #5ED3EB;
+margin: 0 24%;
+}
+
+.yellow{
+background-color: #ffcd69;
+margin-left:10%;
+}
+.top{
+    
+    position: relative;
+}
+.left img {
+    border-radius:50%;
+    width:70%;
+}
+
+.left, .right{
+    display:inline-block;
+    
+}
+.left{
+    width:40%;
+    text-align: center;
+}
+.right{
+    width: 45%;
+    margin-left:3%;
+    position: absolute;
+    top: 40%;
+    text-align: center;
+}
+
+/* bckgrnd img */
+
+.heroImg{
+    height:55vh;
+    background-image:url('assets/footer_img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.main-body{
+    background-color:#DDB9A3;
+}
+
+.footer{
+    border-image-width: 0 50%;
+    
+}
+.bottom-nav{
+    display: inline-block;
+    text-align: center;
+    background-color: #F9E7DC;
+    bottom: 0;
+    width: 100%;
+}
+.fire{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+figcaption{
+    
+    margin: 10% 5%;
+ text-align: center;
+}
